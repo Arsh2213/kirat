@@ -74,19 +74,19 @@ namespace WindowsFormsApplication1
         {
             if (_objPosition == Position.Right)
             {
-                _x = _x + 10;
+                _x = _x + 20;
             }
             else if (_objPosition == Position.Left)
             {
-                _x = _x - 10;
+                _x = _x - 20;
             }
             else if (_objPosition == Position.Up)
             {
-                _y = _y - 10;
+                _y = _y - 20;
             }
             else if (_objPosition == Position.Down)
             {
-                _y = _y + 10;
+                _y = _y + 20;
             }
             Invalidate();
 
